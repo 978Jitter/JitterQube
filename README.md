@@ -41,13 +41,3 @@ Run the real UI on a desktop with no board:
 bash sim/build.sh <path to the lvgl library folder containing lvgl.h>
 
 Screenshots land in sim/out/.
-
-Status
-
-The UI is verified in the simulator. The .ino has not been compiled or flashed on hardware yet. It is adapted from Waveshare's 09_LVGL_Arduino, 07_LVGL_PCF85063_simpleTime and 08_LVGL_QMI8658_ui examples. The XPowersLib battery calls are the least certain part.
-
-Credits and licenses
-Fonts: JetBrains Mono, SIL Open Font License (fonts/JetBrainsMono-OFL.txt)
-Icons, emblem and wordmark: Jitter / JitterTech
-Built on LVGL and Waveshare's example code; check their repos for their licenses
-Add your own LICENSE file for this project
